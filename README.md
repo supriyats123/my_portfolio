@@ -1,9 +1,25 @@
-# Supriya T S: Video Portfolio
+# Supriya T S | Portfolio
 
-Next.js 14 + Tailwind + GSAP + Framer Motion + Lenis.
-Loader → full-screen video hero → About with portrait → Projects → scrolling tagline → Contact → Footer. Light and dark theme.
+**Live site:** https://supriya-portfolio-five.vercel.app
 
-## Run it
+Portfolio website of Supriya T S, a UI/UX designer and full-stack web developer.
+*Turning Ideas into Code, and Code into Solutions.*
+
+## Features
+
+- Greeting loader that cycles through languages
+- Full-screen black and white intro video on the front page (widescreen for computers, portrait for phones)
+- About section with portrait and core expertise
+- Selected work: RESPIRA and this portfolio
+- Smooth scrolling and scroll animations
+- Light and dark theme
+- Responsive layout
+
+## Tech stack
+
+Next.js 14, React, Tailwind CSS, GSAP (ScrollTrigger), Framer Motion, Lenis and React Spring. Hosted on Vercel.
+
+## Run locally
 
 ```
 npm install
@@ -12,36 +28,12 @@ npm run dev
 
 Open http://localhost:3000
 
-## Files you must add to `public/`
+## Edit the content
 
-| File | Notes |
-|---|---|
-| `hero-bg-video.mp4` | Your background video (already added on your PC; keep it) |
-| `portrait.jpg` | Included in this zip |
+All text, links and projects are in `lib/site.js`.
 
-## Change your content: edit ONE file
+## Contact
 
-`lib/site.js` holds your name, email, LinkedIn, GitHub, tagline, intro text, skills cards and projects.
-Save the file and the whole site updates.
-
-## Structure
-
-```
-app/            layout.js (fonts, SEO, theme), page.js (page order), globals.css (colors + section styles)
-components/
-  Navbar/       top bar, menu, theme button
-  HeroSection/  loader + video hero
-  Featured/     About: headline, portrait, expertise cards
-  Projects/     selected work list
-  HorizontalScroll/  big tagline that scrolls sideways
-  Contact/      email + LinkedIn + GitHub
-  SiteFooter/   footer
-  GradualBlur/  soft blur at the bottom edge while scrolling
-  SmoothScroll.jsx  Lenis smooth scrolling
-lib/site.js     YOUR details and content
-public/         video and images
-```
-
-## Deploy free
-
-Push to GitHub, then import the repo at vercel.com and click Deploy.
+- Email: supriyats123@gmail.com
+- LinkedIn: https://linkedin.com/in/supriya-t-s123
+- GitHub: https://github.com/supriyats123
