@@ -4,7 +4,7 @@ import { SITE, SERVICES } from "@/lib/site";
 export default function SubHeader() {
   return (
     <div className="flex w-full flex-col items-start px-4 text-left md:px-0">
-      <div className="flex w-full flex-col gap-3 text-base leading-relaxed md:text-lg lg:text-xl">
+      <div className="flex w-full flex-col gap-3 text-sm leading-relaxed text-justify opacity-80 md:text-base lg:text-lg">
         {SITE.intro.map((line) => (
           <p key={line}>{line}</p>
         ))}

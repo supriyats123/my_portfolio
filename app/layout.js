@@ -1,6 +1,6 @@
-import { Inter } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import './globals.css'
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter', weight: ['400', '500', '600', '700'], display: 'swap' });
+const inter = Poppins({ subsets: ['latin'], variable: '--font-inter', weight: ['400', '500', '600', '700', '800', '900'], display: 'swap' });
 export const metadata = {
   title: 'Supriya T S | UI/UX Designer & Full-Stack Developer',
   description: 'Supriya T S is a UI/UX Designer and Full-Stack Web Developer. Turning ideas into code, and code into solutions.',

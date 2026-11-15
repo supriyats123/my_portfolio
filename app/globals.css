@@ -3,7 +3,6 @@
 @tailwind utilities;
 :root,
 [data-theme="light"] {
-  --font-inter: 'Inter', sans-serif;
   --color-bg: #F9F8FF;
   --color-bg-alt: #ffffff;
   --color-text: #060607;
