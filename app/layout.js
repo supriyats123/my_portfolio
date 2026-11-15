@@ -4,7 +4,7 @@ const inter = Poppins({ subsets: ['latin'], variable: '--font-inter', weight: ['
 export const metadata = {
   title: 'Supriya T S | UI/UX Designer & Full-Stack Developer',
   description: 'Supriya T S is a UI/UX Designer and Full-Stack Web Developer. Turning ideas into code, and code into solutions.',
-  icons: { icon: '/portrait.jpg' }
+  icons: { icon: '/portrait.jpg' }, metadataBase: new URL('https://supriya-portfolio-five.vercel.app'), openGraph: { title: 'Supriya T S | UI/UX Designer & Full-Stack Developer', description: 'Turning ideas into code, and code into solutions.', url: 'https://supriya-portfolio-five.vercel.app', siteName: 'Supriya T S', type: 'website', images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Supriya T S portfolio' }] }, twitter: { card: 'summary_large_image', title: 'Supriya T S | UI/UX Designer & Full-Stack Developer', description: 'Turning ideas into code, and code into solutions.', images: ['/og-image.jpg'] }
 }
 const themeBootstrap = `
 (function () {
