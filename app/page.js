@@ -7,6 +7,7 @@ import GradualBlur from "@/components/GradualBlur/GradualBlur";
 import HorizontalScroll from "@/components/HorizontalScroll/HorizontalScroll";
 import Projects from "@/components/Projects/Projects";
 import Skills from "@/components/Skills/Skills";
+import Certificates from "@/components/Certificates/Certificates";
 import Contact from "@/components/Contact/Contact";
 import SiteFooter from "@/components/SiteFooter/SiteFooter";
 import Skiggle from "@/components/Featured/Skiggle";
@@ -54,6 +55,7 @@ export default function Home() {
             </div>
           </div>
           <Skills />
+          <Certificates />
           <Projects />
           <HorizontalScroll />
           <Contact />
