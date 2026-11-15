@@ -37,3 +37,6 @@ All text, links and projects are in `lib/site.js`.
 - Email: supriyats123@gmail.com
 - LinkedIn: https://linkedin.com/in/supriya-t-s123
 - GitHub: https://github.com/supriyats123
+
+
+Deployed on Vercel. Every push to the main branch updates the live site automatically.
