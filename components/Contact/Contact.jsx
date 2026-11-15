@@ -81,7 +81,7 @@ export default function Contact() {
           <Arrow />
         </a>
         <a id="ct-btn-secondary" href={SITE.github} target="_blank" rel="noreferrer">
-          <span>GITHUB</span>
+          <span>GITHUB</span><Arrow /></a><a id="ct-btn-secondary" href="/resume.pdf" target="_blank" rel="noreferrer"><span>RESUME</span>
           <Arrow />
         </a>
       </div>

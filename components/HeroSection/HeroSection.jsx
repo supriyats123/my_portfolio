@@ -191,7 +191,7 @@ export default function HeroSection() {
               }}
               className="border-b border-white/80 pb-0.5 text-xs font-semibold"
             >
-              Contact me ↓
+              Contact me &#8595;</a><a href="/resume.pdf" target="_blank" rel="noreferrer" className="border-b border-white/80 pb-0.5 text-xs font-semibold">Resume &#8599;
             </a>
           </motion.div>
         </motion.div>
