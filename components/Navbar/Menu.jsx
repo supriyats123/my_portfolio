@@ -40,7 +40,8 @@ const Menu = ({ open, onOutsideClick, onClose }) => {
   const navItems = [
     { label: "HOME", target: "top" },
     { label: "ABOUT", target: "about" },
-    { label: "WORK", target: "projects-section" },
+    { label: "SKILLS", target: "skills-section" },
+  { label: "WORK", target: "projects-section" },
     { label: "CONTACT", target: "contact-section" },
   ];
   const handleNavClick = (e, target) => {

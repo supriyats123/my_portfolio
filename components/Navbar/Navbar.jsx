@@ -13,6 +13,7 @@ const GITHUB_URL = SITE.github;
 const MOBILE_NAV_ITEMS = [
   { label: "HOME", target: "top" },
   { label: "ABOUT", target: "about" },
+  { label: "SKILLS", target: "skills-section" },
   { label: "WORK", target: "projects-section" },
   { label: "CONTACT", target: "contact-section" },
 ];
