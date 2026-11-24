@@ -2,7 +2,7 @@
 
 **Live site:** https://supriya-portfolio-five.vercel.app
 
-Portfolio website of Supriya T S, a UI/UX designer and full-stack web developer.
+Portfolio website of Supriya T S,  full-stack web developer.
 *Turning Ideas into Code, and Code into Solutions.*
 
 ## Features
